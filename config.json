@@ -1,0 +1,44 @@
+{
+  "_COMO_EDITAR": "Edite só os valores entre aspas ou números. Chaves que começam com _ são comentários e são ignoradas. Cuidado para não apagar vírgulas, aspas ou chaves.",
+
+  "_titulo": "Texto grande no topo da página.",
+  "titulo": "Bem-vindo ao meu espaço",
+
+  "_subtitulo": "Texto menor logo abaixo do título. Deixe \"\" para esconder.",
+  "subtitulo": "Vídeo em tela cheia, legendas e downloads em uma única página.",
+
+  "_video": "Link do YouTube (ex.: https://www.youtube.com/watch?v=XXXXXXXXXXX) OU caminho de um mp4 na pasta midia (ex.: midia/video.mp4). Deixe \"\" para usar o fundo animado.",
+  "video": "",
+
+  "_video_mudo_inicial": "true = começa mudo (obrigatório na prática: navegadores bloqueiam autoplay com som). O visitante liga o som pelo botão.",
+  "video_mudo_inicial": true,
+
+  "_controles_nativos": "true = mostra os controles nativos do player (só para mp4). false = usa o botão simples de som.",
+  "controles_nativos": false,
+
+  "_legendas": "Lista de textos sobre o vídeo. inicio e fim são em SEGUNDOS. Se você REMOVER inicio e fim de todas, elas trocam sozinhas a cada legendas_intervalo_segundos. Para adicionar: copie uma linha { ... } e coloque uma vírgula entre elas (a última não leva vírgula).",
+  "legendas": [
+    { "texto": "Isto é uma prévia da sua página.",                      "inicio": 1,  "fim": 5 },
+    { "texto": "As legendas vêm do arquivo config.json.",              "inicio": 6,  "fim": 10 },
+    { "texto": "Troque o vídeo editando só uma linha.",                "inicio": 11, "fim": 15 },
+    { "texto": "Os arquivos da pasta \"arquivos\" viram downloads.",     "inicio": 16, "fim": 20 }
+  ],
+
+  "_legendas_intervalo_segundos": "Tempo de cada legenda no modo automático (quando não há inicio/fim).",
+  "legendas_intervalo_segundos": 4,
+
+  "_mostrar_gerenciar": "true = mostra o link discreto Gerenciar (abre este config.json para edição no GitHub; só funciona para quem tem permissão). false = esconde.",
+  "mostrar_gerenciar": true,
+
+  "_texto_botao_arquivos": "Texto do botão que abre a lista de downloads.",
+  "texto_botao_arquivos": "Arquivos",
+
+  "_cor_destaque": "Cor do botão principal, em hexadecimal.",
+  "cor_destaque": "#7c5cff",
+
+  "_pasta_arquivos": "Pasta do repositório cujo conteúdo vira a lista de downloads.",
+  "pasta_arquivos": "arquivos",
+
+  "_repositorio": "Normalmente pode ficar vazio: no GitHub Pages (usuario.github.io/repo) a página descobre sozinha. Preencha apenas se usar domínio próprio.",
+  "repositorio": { "usuario": "", "repo": "", "branch": "main" }
+}
