@@ -2,13 +2,13 @@
   "_COMO_EDITAR": "Edite só os valores entre aspas ou números. Chaves que começam com _ são comentários e são ignoradas. Cuidado para não apagar vírgulas, aspas ou chaves.",
 
   "_titulo": "Texto grande no topo da página.",
-  "titulo": "Bem-vindo ao meu espaço",
+  "titulo": "Site destinado a esquipe de moreração",
 
   "_subtitulo": "Texto menor logo abaixo do título. Deixe \"\" para esconder.",
   "subtitulo": "Vídeo em tela cheia, legendas e downloads em uma única página.",
 
-  "_video": "Link do YouTube (ex.: https://www.youtube.com/watch?v=XXXXXXXXXXX) OU caminho de um mp4 na pasta midia (ex.: midia/video.mp4). Deixe \"\" para usar o fundo animado.",
-  "video": "",
+  "_video": "https://www.youtube.com/watch?v=HrwTD5q-rMo",
+  "video": "Instalar requisito de administrador Roblox",
 
   "_video_mudo_inicial": "true = começa mudo (obrigatório na prática: navegadores bloqueiam autoplay com som). O visitante liga o som pelo botão.",
   "video_mudo_inicial": true,
